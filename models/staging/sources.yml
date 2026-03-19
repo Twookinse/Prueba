@@ -1,0 +1,10 @@
+sources: 
+  - name: northwind_raw 
+    database: AIRBYTE_DATABASE 
+    schema: AIRBYTE_SCHEMA 
+ 
+    tables: 
+      - name: PRODUCTS 
+      - name: ORDER_DETAILS 
+      - name: ORDERS 
+      - name: CATEGORIES 
